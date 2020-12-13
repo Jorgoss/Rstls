@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Projekti</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="title_activity_add_wideget">AddWideget</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+    <string name="kekw">kekw</string>
+    <string name="action_settings">action_settings</string>
+    <string name="unen_m_r">Unen määrä</string>
+    <string name="veden_juonti">Veden Juonti</string>
+    <string name="v_symysaste">Väsymysaste</string>
+    <string name="mit_haluat_n_hd_aloitussivulla">Mitä haluat nähdä aloitussivulla</string>
+    <string name="arvio_omasta_unen_m_r_st_viime_y_n">Arvio omasta unen määrästä viime yönä</string>
+    <string name="arvio_omasta_p_ivitt_isest_v_symysasteesta">Arvio omasta päivittäisestä väsymysasteesta</string>
+    <string name="kuinka_monta_lasillista_vett_olet_juonut_p_iv_ss">Kuinka monta lasillista vettä olet juonut päivässä</string>
+    <string name="p_ivitt_inen_tavoite">Päivittäinen tavoite</string>
+    <string name="laseja_vett_juotu">Laseja Vettä Juotu</string>
+    <string name="_0">0</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="t_h_n_aiempien_p_ivien_data">Tähän aiempien päivien data</string>
+    <string name="uni">uni</string>
+    <string name="todo">TODO</string>
+    <string name="v_symys">väsymys</string>
+    <string name="vesi">vesi</string>
+    <string name="jatka">Jatka</string>
+    <string name="nimi">Nimi</string>
+    <string name="Nimi" />
+    <string name="_0_tuntia_0_minuuttia">0 tuntia : 0 minuuttia</string>
+    <string name="tunnit">Tunnit</string>
+    <string name="minuutit">Minuutit</string>
+    <string name="kirjaa_t_h_n_nukutut_tunnit_ja_minuutit">Kirjaa tähän nukutut tunnit ja minuutit</string>
+    <string name="kirjaa_t_h_n_v_symysaste_asteikolla_0_5">Kirjaa tähän väsymysaste asteikolla 0-5</string>
+</resources>

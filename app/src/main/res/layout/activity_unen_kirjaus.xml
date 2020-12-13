@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".UnenKirjaus">
+
+
+    <SeekBar
+        android:id="@+id/tunnitSeekbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginRight="6dp"
+        android:max="23"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <SeekBar
+        android:id="@+id/minuutitSeekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="490dp"
+        android:layout_marginRight="6dp"
+        android:max="59"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/nukuttuAikaText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="376dp"
+        android:text="@string/_0_tuntia_0_minuuttia"
+        android:textColor="@color/text"
+        android:textSize="35sp" />
+
+    <TextView
+        android:id="@+id/tunnitText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="430dp"
+        android:text="@string/tunnit"
+        android:textColor="@color/text" />
+
+    <TextView
+        android:id="@+id/minuutitText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="470dp"
+        android:text="@string/minuutit"
+        android:textColor="@color/text" />
+
+    <TextView
+        android:id="@+id/hintText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="86dp"
+        android:layout_marginTop="266dp"
+        android:gravity="center_horizontal"
+        android:text="@string/kirjaa_t_h_n_nukutut_tunnit_ja_minuutit"
+        android:textColor="@color/text" />
+
+</RelativeLayout>

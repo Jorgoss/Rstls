@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.projekti">
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <uses-feature android:name="android.hardware.type.watch" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Rstls"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Projekti">
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".SetupScreen" />
+        <activity
+            android:name=".VedenKirjaus"
+            android:label="Veden juonnin kirjaus"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".VasymysKirjaus"
+            android:label="Väsymyksen kirjaus"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".UnenKirjaus"
+            android:label="Unen kirjaus"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".AddWidgets"
+            android:label="Add Widgets"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
