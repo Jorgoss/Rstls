@@ -1,7 +1,6 @@
 package com.example.projekti;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.widget.SeekBar;

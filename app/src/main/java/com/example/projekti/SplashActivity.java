@@ -22,7 +22,7 @@ public class SplashActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
-
+        LoginTracker loginTracker = new LoginTracker();
         new Handler().postDelayed(new Runnable() {
             @Override
             /**
@@ -31,7 +31,7 @@ public class SplashActivity extends AppCompatActivity {
             public void run() { // tarkistaa onko käyttäjä kirjautunut sisään ja siirtää Main sivulle, jos tieto kirjautumisesta löytyy
                 SharedPreferences sharedpreferences = getSharedPreferences(SetupScreen.PREFS_NAME, MODE_PRIVATE);
                 boolean hasLoggedIn = sharedpreferences.getBoolean("hasLoggedIn", false);
-
+                loginTracker.Check(getApplicationContext());
                 if (hasLoggedIn) {
                     Intent intent = new Intent(SplashActivity.this, MainActivity.class);
                     startActivity(intent);
